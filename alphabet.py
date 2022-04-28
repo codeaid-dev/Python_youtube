@@ -1,5 +1,6 @@
 import tkinter
 import random
+from datetime import datetime
 
 alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 question = ''
@@ -21,7 +22,9 @@ def check():
         if e.get().upper() in question:
             result['text'] = f'不正解:正解は{alphabet[atari]}'
         else:
-            result['text'] = f'正解!'
+            end = datetime.now()
+            t = str((end-start).seconds)
+            result['text'] = f'正解! {t}秒かかりました'
     else:
         result['text'] = 'アルファベットを入力してください'
     result.update()
@@ -33,5 +36,7 @@ q2.pack(pady=10)
 e.pack(pady=10)
 btn.pack(pady=10)
 result.pack(pady=10)
+
+start = datetime.now()
 
 root.mainloop()
