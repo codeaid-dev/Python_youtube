@@ -11,7 +11,6 @@ questions = [
     {'Q':'images/Poland.png','A':'ポーランド'},
     {'Q':'images/Sweden.png','A':'スウェーデン'},
 ]
-correct = None
 
 def question():
     global correct
