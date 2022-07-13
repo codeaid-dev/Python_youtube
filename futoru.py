@@ -25,7 +25,6 @@ for i in range(len(items)):
     c = tkinter.Checkbutton(checks, text=items[i], variable=var)
     c.pack(anchor=tkinter.W)
 
-print(vars)
 result = tkinter.Label(root, text='結果表示', font=('Helvetica', 23), fg='yellow')
 result.pack()
 btn = tkinter.Button(root, text='表示', command=check)
