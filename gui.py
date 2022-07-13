@@ -1,7 +1,5 @@
 import tkinter
 
-from pyparsing import col
-
 root = tkinter.Tk()
 root.geometry('400x200')
 hello = tkinter.Label(root, text='こんにちは', background='red', font=('メイリオ',32))
