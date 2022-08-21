@@ -1,4 +1,3 @@
-from email.mime import image
 import tkinter
 from PIL import ImageTk,Image
 from tkinter import filedialog
