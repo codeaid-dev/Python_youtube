@@ -1,7 +1,4 @@
 import tkinter
-
-
-import tkinter
 from tkinter import messagebox
 
 root = tkinter.Tk()
