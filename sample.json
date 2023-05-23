@@ -1,5 +1,5 @@
 {
-  "breakfast": {
+  "朝食": {
     "hours": "7:30",
     "menus": [
       "toast",
@@ -7,14 +7,14 @@
       "coffee"
     ]
   },
-  "lunch": {
+  "昼食": {
     "hours": "12:00",
     "menus": [
       "lunch box",
       "oolong tea"
     ]
   },
-  "dinner": {
+  "夕食": {
     "hours": "18:30",
     "menus": [
       "salad",
