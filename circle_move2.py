@@ -1,5 +1,4 @@
-import tkinter
-import random
+import tkinter, random
 
 class Circle:
     def __init__(self):
@@ -27,7 +26,7 @@ def move():
     root.after(10, move)
 
 root = tkinter.Tk()
-root.title('円のオブジェクト化')
+root.title('複数の円を描き動かす')
 cvs = tkinter.Canvas(root, width=500, height=500, bg='white')
 cvs.pack()
 for i in range(3):
