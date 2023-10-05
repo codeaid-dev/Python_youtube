@@ -4,4 +4,4 @@
 __pycache__
 exercise.ipynb
 sample.json
-sample.db
+*.db
