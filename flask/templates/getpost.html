@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}
+GET・POSTサンプル
+{% endblock %}
+
+{% block contents %}
+<form action="/who" method="POST">
+  名前：<input type="text" name="name">
+  <button type="submit">送信</button>
+</form>
+{% endblock %}
